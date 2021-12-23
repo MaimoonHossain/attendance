@@ -1,8 +1,16 @@
 <?php
-    $host = '127.0.0.1';
-    $db = 'attendance';
-    $user = 'root';
-    $pass = '';
+    //Development Connection
+    // $host = '127.0.0.1';
+    // $db = 'attendance';
+    // $user = 'root';
+    // $pass = '';
+    // $charset = 'utf8mb4';
+
+    //Remote Database Connection
+    $host = 'remotemysql.com';
+    $db = 'y4ilX8VFoh';
+    $user = 'y4ilX8VFoh';
+    $pass = 'JZ2MJ7igaH';
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
